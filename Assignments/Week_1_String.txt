@@ -1,0 +1,164 @@
+1. What is string 
+
+2.Define multiline string mentioned below and print it 
+
+"Yeah, you can be the greatest, you can be the best
+You can be the King Kong bangin' on your chest
+You can beat the world, you can beat the war
+You can talk to God, go bangin' on his door"
+
+
+3. WAP to access and print characters from string "Lakshya toh har haal mein paana hai" usin index
+
+4. WAP to access and print characters from string "Lakshya toh har haal mein paana hai" usin slice
+
+5. Short not on behaviour of slice 
+
+6. str = "abrakadabra"
+What will be the output of below 
+	str[1:6:20]
+	str[::1]
+	str[::-1]
+	str[3:7:-1]
+	str[7:4:-1]
+	str[0:10000:1]
+	str[-4:1:-1]
+	str[-4:1:-2]
+	str[5:0:1]
+	str[9:0:0]
+	str[0:-10:-1]
+	str[0:0:1]
+	str[0:-9:-2]
+	str[-5:-9--2]
+	str[10:-1:-1]
+	str[1000:2:1]
+
+7. WAP to access each character from string in forward and backword direction 
+
+8. Use String functions: Calculate length of string "allhailkingkong"
+
+9. Use String functions: WAP to print true if string "bla" is present in the string "hestarted blabbering"
+
+10. Use String functions: Compare two strings using arithmatic operators
+str1 = "abc"
+str2 = "abc"
+str3 = "abcd"
+str4 = "random"
+
+Check which strings equality using ==, !=, <, <=, >, >= and print the message in formate <first string> operator name <second string>
+Ex. str1 is equal to str2
+
+11. Use String functions: Remove spaces from string
+str1 = "abc def "
+str2 = "   bla bla bla"
+str3 = "bla bla baar "
+12. WAP to find substring in forward direction using find() and index()
+str1 = "demo"
+str2 = "the python demo is scheduled"
+
+13. WAP to find substring in backword direction using rfind() and rindex()
+str1 = "demo"
+str2 = "the python demo is scheduled"
+
+14. WAP to display all positions of substing in given string
+str1 = "ababadbabdfabefbabab"
+str2 = "ab"
+
+15. Use String functions: Count substring in given string 
+str1 = "ababadbabdfabefbabab"
+str2 = "ab"
+
+16. Use String functions: Replace string with other sting : Correct the spelling of str1 using str2
+str1 = "pixyzpple"
+str2 = "nea"
+
+Provide explanation on replace string functionality. How can we change the content by using replace if strings are immutable.
+
+17. Use String functions: WAP to split the string "Chistats pvt ltd"
+
+18. Use String functions: WAP to join the strings "Chistats", "pvt", "ltd". Join with "_"
+
+19. WAP to change the case of the string to Uppercase and lowercase, str : "CHisTats pVT LtD"
+
+20. WAP to print true if given string starts with "Chistats" and ends with "pune"
+str1 = "Chistats pvt ltd"
+
+21. WAP to check type of characters prsent in the string. Apply functins : isalnum(), isalphs(), isdigit(), islower(), isupper(), istitle(), isspace()
+str1 = "wc2011"
+str2 = "WORLDCUP"
+str3 = "2011"
+str4 = "world cup 2011"
+str5 = "worldcup"
+str6 = " "
+
+22. Formatting the string 
+name = "Chistats"
+year = "2017"
+age = "4"
+Use below formats to print the statement as "Chistats is established in the 2017 and today we are celebrating 4th birthday"
+	1. {} {} {}
+	2. {0} {1} {2}
+	3. {name} {year} {age}
+	
+23. WAP to print the reverse order of words from statement "Chistats is established in the 2017 and today we are celebrating 4th birthday"
+
+24. WAP to print the reverse interna content of each word from statement "Chistats is established in the 2017 and today we are celebrating 4th birthday"
+
+25. WAPTP characters from odd position in one lineand even positions in second line
+
+26. Merge two string as given below
+str1 = "citt"
+str2 = "hsas"
+chistats
+
+27. WAP to sort characters of string, first alphabets symbols followed by numeric valuesEx
+str1 = "Q9W3E81"
+Output will be EQW1389
+
+28. WAP to print the character number of time given in the strings next index
+Ex: a5b2c3
+output will be : aaaaabbccc
+
+29. WAP to print the nth alphabet from given char in the string 
+Ex. a4k3b2
+Output will be : aeknbd
+
+30. WAP to remove duplicat characters from given string 
+
+31. WAP to print number of occurances of characted in the gven string 
+
+32. WAP to format the numbers in print statement 
+	format decimal 123
+	format floating number 123.4567
+	format binary number 153
+	format octal numner 153
+	format hexa decimal (lower case) 143
+	format hexa decimal (Upper case) 143
+	format int and float with sign : + and -
+	
+33. WAP to align number 123 in print statemen as below
+	123
+	12300
+	123000
+	000123
+	-123
+	12.3
+	-12.3
+
+34. WAP to truncate string using format method,
+input : ""chistats
+output : chi
+
+Note use all formatters 
+	.
+	>
+	<
+	*<
+	
+35. Dynamic float format template
+num = "{:{align}{width}.{precision}f}"
+Useabove template to print the numbe 123.236 as 123.24 using < and > operator
+
+
+36. Define the Usage of strip() and explain with the example 
+	

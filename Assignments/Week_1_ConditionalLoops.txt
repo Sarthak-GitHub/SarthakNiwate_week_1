@@ -1,0 +1,167 @@
+Conditional statement: if
+
+1. WAP to print Welcome to Python if str is "python"
+
+2. WAP to print "Welcome to Chistats" if isHired value is True
+
+3. WAP to print "Eligible for Vote" if age is greater than 18
+
+Conditional statement: if else
+
+4. WAP to print "Passed" if marks obtained in exam are greater than 40 if not then print "Failed"
+
+5. WAP to print "Covid positive" if SARS-CoV-2  is detected else "Covid negative"
+
+6. WAP to print "Hi Sarthak" if girl says hi else print "Bye Sarthak"
+
+7. WAP to print biggest of two numbers
+
+
+Conditional statement: if elif else
+
+8. WAP to print entered number is positive, negative or zero
+
+9. WAP to print the season, print Summer,if month entered is between March to June, print Monsoon if month entered is between July to October and Winter if if month entered is between November to Feb.
+
+10. WAP to print "Yes" if bool is True  else print "No"
+
+11. WAP to print whether entered number if int, float or complex
+
+
+Conditional statement: nested if else
+
+12. WAP to print biggest of three numbers
+
+13. WAP to print Student is passed if student scores more than 40 marks in Physics ,Chemistry and Maths
+
+14. WAP to print perosn is minor or retired. Person will be minor if age is less than equal to 18 and person will be retired if age is greated than equal to 58
+
+15. WAPTP to print "Number" if the type of entered value is int or float, print "Binary" if type of entered value is binary and print "Strning" if type of entered value is str 
+
+WAP program using if/ if else / if elif else to find out if number is prime or not.
+
+
+
+Iterative statements:
+
+For loop
+
+16. WAPTP characters present in "Chistats pvt ltd"
+
+17. WAPTP index wise characters presentin string
+
+18. WAPTP numbers from 10 to 20
+
+19. WAPTP numbers from 30 to 20 in descending order
+
+20. WAPTP Sum of numbers from 1 to 10
+
+21. WAPTP sum of first n natural numbers
+
+20. WAPTP cube of first n numbers
+
+21. WAPTP the multiplication table of a given integer
+
+22. WAPTP odd numbers between 1 to 40
+
+23. WAP to print below pattern with numbers increased by 1
+
+	    1
+	   2 3
+	  4 5 6
+	 7 8 9 0 
+	  9 8 7
+	   6 5
+	    4
+
+24. WAPTP fibonacci series of n
+
+25. WAP to compyte the log of 2 by adding n terms in the series 1 - 1/2 + 1/3 - 1/4 + 1/5 -... 1/n where n is a positive number
+
+26. WAPTP all armstrong numbers between 1 and 10000
+If sum of cubes of each digit of the number is equal to the number itself, then the number is called an Armstrong number.
+For example, 153 = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 )
+
+27. WAPTP all prime numbers within a range 1 to 500
+
+
+While Loop
+
+28. WAP to reverse a given integer number 23564
+
+29. WAPTP numbers from 1 to 10
+
+30. WAPTP sum of first 100 nmbers
+
+31. WAPTP string until user enters "stop"
+
+32. WAPTP average of first 10 numbers
+
+33. WAP to calculate factorial of given number
+
+34. WAP to calculate GCD and LCM
+
+35. WAP that generates a random number and asks the user to guess what the number is. If the user's guess is higher than the random number, the program should display "Too high, try again." If the user's guess is lower than the random number, the program should display "Too low, try again." The program should use a loop that repeats until the user correctly guesses the random numbe
+
+
+36. WAPTP true if there is an equal number of x's and o's present in the string, otherwise print false
+
+37. Given three numbers x, y and p, compute (xy) % p
+Input:  x = 2, y = 3, p = 5
+Output: 3
+Explanation: 2^3 % 5 = 8 % 5 = 3.
+
+Input:  x = 2, y = 5, p = 13
+Output: 6
+Explanation: 2^5 % 13 = 32 % 13 = 6.
+
+38. Given three numbers a, b and c, we need to find (ab) % c
+Input : a = 2312 b = 3434 c = 6789
+Output : 6343
+
+Input : a = -3 b = 5 c = 89 
+Output : 24
+
+
+Medium difficulty
+
+39. Have the function ArithGeo(arr) take the array of numbers stored in arr and return the string "Arithmetic" if the sequence follows an arithmetic pattern or return "Geometric" if it follows a geometric pattern. If the sequence doesn't follow either pattern return -1. An arithmetic sequence is one where the difference between each of the numbers is consistent, where as in a geometric sequence, each term after the first is multiplied by some constant or common ratio. Arithmetic example: [2, 4, 6, 8] and Geometric example: [2, 6, 18, 54]. Negative numbers may be entered as parameters, 0 will not be entered, and no array will contain all the same elements.
+Examples
+Input: [5,10,15]
+Output: Arithmetic
+
+Input: [2,4,16,24]
+Output: -1
+
+40. Have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order. For example: if the input string is "Hello World and Coders" then your program should return the string sredoC dna dlroW olleH.
+Examples
+Input: "coderbyte"
+Output: etybredoc
+Input: "I Love Code"
+Output: edoC evoL I
+
+41. Next Palindrome
+Have the function NextPalindrome(num) take the num parameter being passed and return the next largest palindromic number. The input can be any positive integer. For example: if num is 24, then your program should return 33 because that is the next largest number that is a palindrome.
+Examples
+Input: 2
+Output: 3
+Input: 180
+Output: 181
+
+Transfer statements
+
+42. Notedown usages of break, continue and pass
+
+break 
+
+43. WAP to print the numbers till 7 in the for loop, having range of 1 to 10. Must use break keyword
+
+continue 
+
+44. WAPTP odd numbers from the for loop, having range of 1 to 10. Must use continue keyword
+
+pass
+
+45. WAPTP odd numbers from the for loop, having range of 1 to 10. Must use pass keyword
+
+46. 

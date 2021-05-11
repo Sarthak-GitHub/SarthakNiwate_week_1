@@ -1,0 +1,66 @@
+1. Declare below types of variables and print them
+Text:str
+Numeric:int, float, complex (Positive and Negative)
+Boolean:bool
+Binary: bytes
+String: str
+
+2. WAP to get the type, address of below variable and print them
+a = 10
+b = 3.124
+c = "35"
+d = "4.2"
+e = "s1"
+
+3. List down the rules to define identifiers in python
+
+4. What is valid identifier:
+	1. 22region
+	2. my250
+	3. python2021batch
+	4. dollar$toinr
+	5. _aztec_cs
+	6. define
+	7. import
+	
+5. List down reserver keywords and theirs usages
+
+6. What is import
+
+7. Print 123 in decimal, binary, octal and hexadecinal format using base conversion functions 
+
+8. Casting, write a programe to cast and print all the below variables into int, float, complex, bool and string. Mention the reason wherever the conversion did not happen.
+a = 10
+b = 3.124
+c = "35"
+d = "4.2"
+e = "s1"
+f = True
+g = "0B1111"
+h.  "five"
+i. 0 
+
+9. What is bytes data type and bytearray data type, define and print its type, address
+
+10. WAP to create and print the List data type 
+
+11. WAP to create and print the Tuple data type 
+
+12. WAP to create and print the Range data type 
+
+13. WAP to create and print the Set data type 
+
+14. WAP to create and print the Frozenset data type 
+
+15. WAP to create and print the Dict data type 
+
+16. WAP to print swap two numbers without using the third variable
+
+17. What is none data type, declare and print it
+
+18. del statement: explain with use
+
+19. What is difference between del and none
+
+
+

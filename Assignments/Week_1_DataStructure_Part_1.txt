@@ -1,0 +1,295 @@
+1. Write short notwe on below 
+
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
+
+2. Input : a = 20 b = 4
+Note down the output of below operations 
+a+b
+a-b
+a*b
+a/b
+a//b
+a%b
+a**b
+
+3. Note down the output of below operations 
+
+Input : a = 10 b = 2
+a/b
+a//b
+
+Input : a = 10.0 b = 2
+a/b
+a//b
+
+Notedown the reason for having difference in decimal digits
+
+4. Write short note on string concatination operator (+) and string multipication operator(*)
+
+5. Input : a = 20 b = 10
+Note down the output of below operations 
+a>b
+a>=b
+a<b
+a<=b
+
+
+5. Input : a = "abc" b = "cde" c = "abc"
+Note down the output of below operations 
+a>b
+a>=b
+a<b
+a<=b
+
+a>c
+a>=c
+a<c
+a<=c
+
+6. Note down the output of below operations 
+Input a = 10 b = 20 c = 10 d = 10
+a==b
+a!=b
+a==c==d
+
+Input a = "abc" b = "cde" c = "abc" d = "abc"
+a==b
+a!=b
+a==c
+a!=c
+a==c==d
+
+7. Using logical operators: WAPTP "Student is passed" if he scores 40+ marks in both Physics and Maths
+
+8. Using logical operators: WAPTP "Student is failed" if he scores 40- marks in atleast one subject from Physics and Maths
+
+9. Using logical operators: WAPTP "Student is failed" if valus of isPassed is True then print "Student is passed" else print "Student is failed" 
+
+10. Using bitwise operators:
+Input 	a = 10
+		b = 20 
+		c = 3
+WAPTP output of below 
+a&b
+a|b
+a^b
+(~a)
+a<<b
+c>>3
+
+True & False
+True | False
+True ^ False
+~True
+True<<2
+True>>2
+
+11. Using Ternary operator or COnditional operator: Identify minimum of two numbers
+
+12. Using Ternary operator or COnditional operator: Identify minimum of three numbers 
+
+13. Using Ternary operator or COnditional operator: Identify maximum of three numbers 
+
+14. Special operators 
+	Write note on Identity operator
+	Write note on membership operator
+
+15. Using Identity operator: WAPTP whether both variables are pointing to same addres or note
+	1. a = 10 b = 10
+	2. a = 20 b = 10
+	3. a = ["one","two","three"] b = ["one","two","three"] 
+	
+16. Using membership operator: WAP to check whether blow string are present in str1 = "welcome to chistats pvt ltd"
+'a'
+'z'
+'x'
+'c'
+'d'
+'ltd'
+'chistats'
+
+
+17. Arrange below operators in the proper precedence
+()
+**
+~
+and 
+or
+&
+^
+|
+/
+%
+//
++
+- (Minus)
+- (Unary minus)
+*
+<<
+>>
+is
+is not
+!=
+not
+in
+not in
+>
+>=
+<
+<=
+==
+
+18. For input a = 30 b = 20 c = 10 d = 5 print the output of below 
+((a+b)*c/d)
+((a+b)*(c/d))
+(a+(b*c)/d)
+
+Explain the precedence
+
+19. WAP to create an array of 10 integers and display the array items. Access individual element through indexes.
+
+20. WAP to append new element at the end of an array
+
+21. WAP to reverse an array
+
+22. WAP to get the current memory address and the length in elements of the buffer used to hold an array's contents and also find the size of the memory buffer in bytes
+
+23. WAP to get the number of occurrences of a specified element in an array
+
+24. WAP to get largest element from array
+
+25. WAP to get average of integers present in array
+
+26. Create an array of size 10 and insert new element at position 3 and 7 and update the position 2
+
+27. WAP to remove a elemnt from 5th position using the index from above array
+
+28. WAP to convert an array to an ordinary list with the same item
+
+29. WAP to remove duplicates from an array
+
+30. WAP to get length of an array
+
+31. WAP to find the missing number in a given array of numbers between 20 to 50
+
+32. WAP to rotate an array. Ex. Input array [1, 2, 3, 4, 5, 6, 7] Output [7, 6, 5, 4, 3, 2, 1]
+
+33. WAP to split the array and add the first part to the end
+
+34. WAP to find reminder of array multiplication divided by n
+
+35. WAP to check if given array is Monotonic
+
+36. Have the function ArrayMatching(strArr) read the array of strings stored in strArr which will contain only two elements, both of which will represent an array of positive integers. For example: if strArr is ["[1, 2, 5, 6]", "[5, 2, 8, 11]"], then both elements in the input represent two integer arrays, and your goal for this challenge is to add the elements in corresponding locations from both arrays. For the example input, your program should do the following additions: [(1 + 5), (2 + 2), (5 + 8), (6 + 11)] which then equals [6, 4, 13, 17]. Your program should finally return this resulting array in a string format with each element separated by a hyphen: 6-4-13-17.
+
+If the two arrays do not have the same amount of elements, then simply append the remaining elements onto the new array (example shown below). Both arrays will be in the format: [e1, e2, e3, ...] where at least one element will exist in each array.
+Examples
+Input: ["[5, 2, 3]", "[2, 2, 3, 10, 6]"]
+Output: 7-4-6-10-6
+Input: ["[1, 2, 1]", "[2, 1, 5, 2]"]
+Output: 3-3-6-2
+
+37. WAP to print output of below slicing options 
+Input array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Operations 
+	1. a[3:8]
+	2. a[5:]
+	3. a[:]
+
+38. WAP to search en element 7 in the array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+39. WAP to add and multiply two 3x3 matrices.
+
+40. WAP find a pair with a given sum in the array.
+
+41. WAP to move all zeros to the end of an Array.
+
+42. WAP to Move all zeros to the Start of an Array.
+
+43. WAP to Find the mean and median of an unsorted array.
+
+44. WAP to Segregate 0s and 1s in an array.
+
+41. WAP to find the median of two sorted arrays of different sizes.
+
+42. WAP to find the median of two unsorted arrays.
+
+43. WAP to find the Max sum contiguous subarray.
+
+44. WAP to find a pair with maximum product in an array.
+
+45. WAP to sort an array [9, 1, 5, 6, 8, 3, 2, 4, 7, 10]
+
+46. WAP to read and print a two dimensional array.
+
+47. WAP to compare two arrays, print "Equal" if elements in array_1 are matching with elements in array_2
+
+48. WAP to find the common elements between two arrays 
+
+49. WAP to add two matrices of the same size
+
+50. WAP to check whether a given matrix is Lower Triangular Matrix or not.
+
+51. WAP to print boundary elements of the matrix.
+
+52. WAP to create a matrix and fill it with prime numbers.
+
+53. WAP to merge and sort two one dimensional arrays.
+
+54. WAP find union and intersection of 2 arrays
+
+55. WAP to find whether given number x appears more than n/2 times in a sorted array of size n
+
+56. WAP to accept a matrix of order n*m and interchange the diagonals
+
+57. WAP to perform matrix multiplication
+
+58. WAP to perform a binary search in a given array
+
+59. WAP to get median of two sorts arrays
+
+60. WAP to add list of elements to a given set
+Input
+set_1 = {"a", "b", "c"}
+list_1 = ["b", "d", "e"]
+
+61. Create the set and print its element values, type and id
+
+62. Create set using set function
+
+63. Find ways to create an empty set
+
+64. Create set and add new element into it and update existing elements. Notedown the difference between add and update functions
+
+65. Create a set and perform below operations on it 
+	copy
+	pop
+	remove 
+	discard
+	clear
+	
+66. Create two sets and perform below operations	
+	union
+	intersaction
+	difference
+	symmetric_difference
+	symmetric_difference_update
+	issuperset
+	issubset
+	isdisjoint
+	intersection_update
+	
+67. Createa set and apply menbersiop operations on it (i and not in)
+
+68. What is set comprehension and how it works. Explain is detail with example.
+
+69. What is nested set comprehension and how it works. Explain is detail with example.
+
+70. What is frozenset, explain in detial with example
+

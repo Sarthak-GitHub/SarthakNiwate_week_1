@@ -1,0 +1,296 @@
+Input Operations
+1. raw_input()
+2. input()
+
+Output Operations
+3. print()
+4. Omitting newlines
+5. Concatenation
+
+Data Structure: Lists
+
+Prerequisites:
+
+i. Define ways to create the list
+
+ii. Solve prerequisites using 
+	1. hard coded inputs
+	2. take input from user
+	
+iii. WAP to create list and print the elements, type and address of the elements from list. Shallow copy list and again print the elements, type and address of the elements. Deep copy the list and print the elements, type and address of the elements.
+
+iv. WAP to create two lists of same elements and print their address, element type, element address and elements. Check the equality of lists.
+
+v. WAP to create the clone and alias of the list and print their address, element type, element address and elements 
+Questions
+
+v. What are the iteration ways available to acces elements of list
+ 
+1. WAP to create the list perform below operaions on it
+	1. print all elements from list by traversing 
+	2. get maximum from list
+	3. get minimum from list
+	4. reverse the list
+	5. get sum of all the elements from list
+	6. get average of all elements from list
+	7. sort the list
+	8. remove duplicates
+	9. check if list is empty or not
+	10. clone or copy the list
+	11. add new elements (append and extend)
+	12. remove elements
+	13. update elements
+	14. retrieve element from 3rd and 5th position
+	15. create another list and compare with list created for earlier questions
+	16. shuffle the list and print all elements
+	17. print element and index of that element
+	18. concat two lists
+	19. convert list t array (without using Numpy)
+	20. get unique elements from list
+	21. pop first element from list
+	22. get index of the 1st matching element
+	23. remove all elements from a list
+	24. check whether list containf specific element or not
+	25. check whther element is member of list of not
+	26. get lenght of list
+	27. insert element in sorted list and maintain order
+	28. access last three elements using slice operation
+
+2. create two losts and perform below operations 
+	1. concatination
+	2. repetations
+
+
+3. WAP to retriev elemnts from random index
+
+4. WAP to generate all permutations of a list
+
+5. WAP to get difference between two lists
+
+6. WAP to convert the list of string to chars
+
+7. WAP to convert Shallow list => a list of lists => [[a,b,c],[d,e,f],[g,h,l]] to flat list [a,b,c,d,e,f,g,h,l]
+
+8. WAP check whether two lists are circularly identical
+
+9. WAP to get second smallest number from list
+
+10 WAP iterate over more than two lists at the same time
+
+11. WAP to find whether given string is a palindrome without using reversed() inbuilt function
+
+12. Create a tuple and convert it to list
+
+13. WAP to append sequence to list
+
+14. Listand explain the time complexities of below operations on list
+
+	Copy
+	Append[1]
+	Pop last
+	Pop intermediate
+	Insert
+	Get Item
+	Set Item
+	Delete Item
+	Iteration
+	Get Slice
+	Del Slice
+	Set Slice
+	Extend[1]
+	Sort
+	min(s), max(s)
+	Get Length
+	
+15. WAP to make all strings from a given list equal by replacing minimum number of characters
+
+16. Given two list of Holes and Balls consisting of N and M integers respectively, denoting the diameter of holes and balls respectively. M number of balls are made to roll from A to B on a sloping surface with N holes, each having different depth.
+The task is to find the eventual position of each ball in the order of the ball released considering the following:
+	- A ball will fall into a hole if its diameter is less than or equal to the diameter of the hole.
+	- A hole Hi will become full if i numbers of balls fall into it.
+	- If a hole is full, then no more balls fall into it.
+	- A ball will reach B from A, if and only if it is not falling into any one of the holes.
+	- If a ball is in hole Pi, then its position is i. If a ball reached the bottom point B, then take its position as 0.
+	
+Explanation:
+	Ball of diameter 20 will fall into the hole H1 and the hole H1 will become full.
+	Balls with diameter 15, 7 and 10 will reach bottom, since the hole H1 is full and diameters of holes H2 and H3 are less than the diameters of the balls.
+	Balls with diameters 5, 4 and 2 will fall into the hole H3.
+	Ball with diameter 1 will fall into the hole H2 since the hole H3 is already full.
+	Ball with diameter 3 will fall into hole H2.
+	Balls with diameters 6, and 8 will reach the bottom point B.
+	The position of ball 20 is 1 because it is in hole H1.
+	Positions of ball 15, 7, 10, 3, 6, and 8 are 0 because they reached the bottom point B.
+	Therefore, the balls with diameter 5, 4 and 2 are in the 3rd hole H3, the ball with diameter 1 and 3 are in the 2nd hole H2.
+	
+	Input: H[] = {20, 15, 10, 5, 25}, B[] = {5, 10, 15, 20, 25, 30, 4, 9, 14, 19}
+	Output: 5 5 5 5 5 0 4 3 2 1
+
+
+
+Solve below programs using lists and create anoth solution using list comprehension 
+	
+17. WAP to extract elements with Frequency greater than K
+
+18. WAP to extract elements with equal frequency as value
+Input : test_list = [4, 3, 2, 2, 3, 4, 1, 3, 2, 4, 4] 
+Output : [1, 3, 4] 
+Explanation : All elements occur equal times as their value.
+
+
+19. Create the nested list and extract elements of same index 
+
+20. WAP to update the elements from list who are greater than n (ex. elements greater than 10)
+
+21. WAP to print True if any value in a list is divisible by 2, use "any" function 
+
+22. WAP to print True if all values in a list are negative, use "all" function
+
+23. What is diffrence between reverse and reversed
+
+24. Is it pssible to sort an list of int having None in it. What will happen if we try to perform any operation on such lists.
+
+25. Implement stack and queue using list
+
+26. Reverse the list using slice.
+
+
+Data Structure: Tuple
+
+Prerequisites
+i. Define ways to create the tuple 
+ii. What are the iteration ways available to acces elements of tuple 
+ii. 
+27. Create tuple and perform below operations on it
+	1. get size of tuple using getsizefo() and __sizeof__()
+	2. access tuple using index and slice operations 
+	3. get length of tuple 
+	4. ge tcount of element 
+	5. sort the tuple in natural order
+	6. fin min and max from tuple 
+	7. check if given element exist in the tuple or not
+	
+28. concatinate two tuples and create third 
+
+29. perform repetation operation on tuple
+
+30. Create two tuples and compare elements using cmp 
+
+31. a= 10, b=20, c=30, d=40
+	Perform packing and unpacking of above elements and print them
+	
+32. What is difference between list and tuple
+
+33. What is internal representation of list and tuple 
+
+34. Create list and convert it to tuple and viceversa
+
+35. convert list of lists to tuple of tuple 
+
+36. WAP to create a tuple with different data types, print the element, address and type 
+
+37. Create tuple and add element in it. As tuples are immutable, will it able to add new element in the tuple, provided the reason in both Yes and No cases.
+
+38. Create tuple and remove element it. As tuples are immutable, will it able to add new element in the tuple, provided the reason in both Yes and No cases.
+
+39. WAP to convert tuple of chars to string 
+
+40. WAP to convert a list of tuples into a dictionary
+
+41. WAP to replace last value of tuples in a list.
+Sample list: [(10, 20, 40), (40, 50, 60), (70, 80, 90)]
+Expected Output: [(10, 20, 100), (40, 50, 100), (70, 80, 100)]
+
+42. WAP to remove an empty tuple(s) from a list of tuples. 
+
+43. There is a tuple, each item represent name and marks of student. List Ex. [(Karthik, 78, 67, 93), (Sarthak, 81, 73, 92)]
+	1. We need to identify first three toppers of the batch. Print their score and average.
+	2. We need to get the topper in each subject
+	3. We need to know te list of students failed in the any subject (passing marks = 40)
+
+44. WAP to convert of list of tuples to list of lists
+
+45. Sort the list of tuples by second item
+
+46. remove the tuples of length 3 from list
+
+47. WAP to sort the list in tuple 
+
+
+
+Data Structure: Dictionary(Dict) 
+
+i.Write short note on dictionary
+
+ii. Write a detail note on below 
+	1. What internally happens when we create a dictionary
+	2. What happend when we try to add new element in the dictionary
+	3. WHat happend when 
+
+48. WAP to create the dictionry and perform below steps 
+	1. print elements from it in key value format using all methods of iteration
+	2. update the elements from above dictionary
+	3. delete elements 
+	4. empty the directory
+	5. get size of dictionary
+	6. return and remove the value associsted with specific key 
+	7. remove arbitary item from the dictionary
+	8. get all keys from the dictionary
+	9. get all values from dictionary
+	10. get list of tuples from the dict and represent it in the key value pair
+	11. create the copy of the list 
+	12. Update the dictionary value 
+	13. get dictionary with the specified keys and value
+	14. filter the dictionary 
+
+49. explore the function setdefault
+
+50. WAP to get occurances of each letter present in  given string 
+
+51. There is a dict, each item represent name and marks of student.
+	1. We need to identify first three toppers of the batch. Print their score and average.
+	2. We need to get the topper in each subject
+	3. We need to know te list of students failed in the any subject (passing marks = 40)
+	4. Display marks of student by taking student name as input from console
+	
+52. Ways to sort list of dictionaries by values in Python – Using itemgetter
+
+53. Ways to sort list of dictionaries by values in Python – Using lambda function
+
+54. WAP to merge two Dictionaries
+
+55. Convert Key-Value list Dictionary to List of Lists
+
+56. Convert List to List of dictionaries
+
+57. Convert Lists of List to Dictionary
+
+58. Convert List of Dictionaries to List of Lists
+
+59. Convert key-values list to flat dictionary
+
+60. Convert a list of Tuples into Dictionary
+
+61. Convert Nested dictionary to Mapped Tuple
+
+62. WAP to find winner of election
+Input :  votes[] = {"john", "johnny", "jackie", 
+                    "johnny", "john", "jackie", 
+                    "jamie", "jamie", "john",
+                    "johnny", "jamie", "johnny", 
+                    "john"};
+Output : John					
+We have four Candidates with name as 'John', 'Johnny', 'jamie', 'jackie'. The candidates John and Johny get maximum votes. Since John is alphabetically smaller, we print it.
+
+63. CReate a dictionary/ nested  dict of which will held books name, author name, price, year of publishing, num pages, copies sold, rating, category, (chapter, number of pages per chapter, number of characters), (publish name, publisher address), location of availability
+Create data using faker model if possible or have your own data created for this exercise.
+Category : Fiction, nonfiction, scifi, economy, sports, mythology
+
+	1. Get number of boks published by each auhor in each year and nuber of copies sold 
+	2. Get total payment received by each author per book and total amount of money he earned at the end 
+	3. Get the location where maximum boks are available 
+	4. Get name of the publishe who have published max number of books 
+	5. Get name of the authos who has developed maximum characters 
+	6. Get the name of best book considering the copies sold and rating, Get the best book from each catrgory.
+	7. Sort the dict by author name and year of publishing
+	8. Sort the dict by copies sold and rating 

@@ -1,0 +1,170 @@
+1. List down as much as possible buildin functions of python 
+
+2. Write down the skeleton of a function with optionals
+
+3. WAF to print "Hello World"
+
+4. WAF which takes name as parameter and prints it
+
+5. WAF which takes number as parameter and prints the square of it
+
+6. WAF which takes two number as parameter, calculates the sum of square of the parameters and returns it
+
+7. WAF to find factorial of given number
+
+8. WAF which takes two paramaters, camculates the sum and product of them and returns.
+
+9. List down the types of arguments and explain those in with example.
+
+10. WAF to get variable length argument and caculate the sum of square of those numbers
+
+11. WAF to get two parameters as input 1. variable length argument of integers 2. positional parameter and identify whether second parameter is available in the variable length argument
+
+12. Function 
+	def fun(arg1, arg2, arg3=4, arg4=8):
+		print(arg1, arg2,arg3,arg4)
+	
+What will be the output of the below function calls
+	1. fun(3,2)
+	2. fun(10, 20, 30, 40)
+	3. fun(25, 50, arg4=10)
+	4. fun(arg4=4, arg1=3, arg2=4)
+	5. fun()
+	6. fun(arg3=10, arg4=20, 30, 40)
+	7. fun(4, 5, arg2=6)
+	8. fun(4, ,5 arg3=5, arg5=6)
+	
+13. Short note on function vs module vs library
+
+14. Short note on global variables
+
+15. Short note on local variables
+
+16. WAF to caculate factorial of number using recursion
+
+17. What is lambda function. SHort not with example 
+
+18. Write a lambda function to get square of given number 
+
+19. Write a lambda function to get sum of two given numbers
+
+20. Write a lambda function to get max of given values
+
+21. WAP to filter even numbers from list by using filter() function 
+
+22. WAP to filter students whoes name starts with "a" by using filter() function 
+
+23. WAP to get list of integers as input and generate another list containing the square of all integers from list one. Write using lambda function and also without using lambda function
+
+Ex.	Input = [1,2,3,4,5], Output = [1,4,9,16,25]
+
+24. WAP to calculate the sum of al numbers present in the list using reduce()
+
+25. Prove that everything in python is an object
+
+26. Create the alias of the function defined in the Que 12, print the id of both functions and perform the same set of operations
+
+27. Nested function: Create a function which takes the list of numbers as parameter, calculates the square of every number in the nexted function and returns the final list of squares.
+
+28. What is the main() function in Python
+
+29. What is __name__ in Python, what are the ways to execute python file differently in different contexts. Ref. https://www.programiz.com/python-programming/main-function
+
+30. What will be the output of below 
+	1. abs(-7.25)
+	2. abs(3+5j)
+	3. abs(3 - 4j)
+	4. round(5.76543, 2)
+	5. round(5.76543)
+	6. round(-1.2)
+	7. arr = [-0.341111, 1.455098989, 4.232323, -0.3432326, 7.626632, 5.122323] what will be values of round(arr, 2) Note: Use numpy to create an array
+	
+31. Print values of all below 
+	round_num = 15.456
+	final_val = round(round_num, 2)
+	val1=decimal.Decimal(round_num).quantize(decimal.Decimal('0.00'), rounding=decimal.ROUND_CEILING)
+	val1=decimal.Decimal(round_num).quantize(decimal.Decimal('0.00'), rounding=decimal.ROUND_DOWN)
+	val1=decimal.Decimal(round_num).quantize(decimal.Decimal('0.00'), rounding=decimal.ROUND_FLOOR)
+	val1=decimal.Decimal(round_num).quantize(decimal.Decimal('0.00'), rounding=decimal.ROUND_HALF_DOWN)
+	val1=decimal.Decimal(round_num).quantize(decimal.Decimal('0.00'), rounding=decimal.ROUND_HALF_EVEN)
+	val1=decimal.Decimal(round_num).quantize(decimal.Decimal('0.00'), rounding=decimal.ROUND_HALF_UP)
+	val1=decimal.Decimal(round_num).quantize(decimal.Decimal('0.00'), rounding=decimal.ROUND_UP)
+
+32. WAP to create a sequence of numbers from 3 to 5 using range()
+
+33. WAP to create a sequence of numbers from 3 to 19, but increment by 2 instead of 1
+
+34. WAP to create a list of even number between the given numbers using range()
+
+35. What will be the output of range(2, -14, -2)
+
+36. Identify the time taken by Que 7 and Que 16 to excute using timeit
+
+37. Short note on return vs yield with example 
+
+38. WAP to get all square numbers from 1 to 100 using yield. Ex. 1, 4, 9, 16, 25, 36, 49, 64, 81, 100
+
+39. WAP to create digital clock usinf time.sleep. Clock should print the output in hh:mm:ss AM/PM format
+
+40. WAP to print the number from list with pause of 5 seconds
+
+41. WAP to create the queue using collections.dequeue and perform all the queue operations like append, popleft 
+
+42. WAP to create queue using using queue.Queue andperform below operations on it
+	1. maxsize
+	2. empty()
+	3. full()
+	4. get()
+	5. get_nowait()
+	6. put(item)
+	7. put_nowait(item)
+	8. qsize()
+	
+43. What is Python Counter and why to use it
+
+44. Using Counter: WAP to get the count of number of occurences of alphabet present in the list1 = ['x','y','z','x','x','x','y', 'z'] hint : from collections import Counter
+
+45. What will be the output of below 
+	
+	1. 	my_str = "Welcome to python world!"
+		Counter(my_str)
+
+	2. 	dict1 =  {'x': 4, 'y': 2, 'z': 2, 'z': 2}
+		Counter(dict1)
+		
+	3.  tuple1 = ('x','y','z','x','x','x','y','z')
+		Counter(tuple1)
+	
+46. Update the value of the counter 
+		_count = Counter()
+		_count.update('Welcome to python world!')
+		print(_count)
+		
+47. WAP to print the counter generated in Que 43 sequentially 
+
+48. WAP to delete element from counter generated in Que 43 
+
+49. SUppoer we have two counter mentioned below 
+counter1 =  Counter({'x': 4, 'y': 2, 'z': -2})
+counter2 = Counter({'x1': -12, 'y': 5, 'z':4 })
+Perform below operations on the conters
+	1. Addiotion
+	2. Subtraction
+	3. Intersection
+	4. Union
+	
+50. WAP to get the most common elements from the counter
+
+51. WAP to get all elements with positive value and count>0 from counter 
+
+52. WAP to get count of specific element from counter 
+
+53. WAP to set count of specific element from counter 
+
+54. Iterate on the below using enumerate() function
+	my_list = ["eat","sleep","repeat"]
+	my_str = "chistats"
+	my_tuple = ("A", "B", "C", "D", "E")
+	my_dict = {"a": "PHP", "b":"JAVA", "c":"PYTHON", "d":"NODEJS"}
+	Explain the output of the enumerator
+
